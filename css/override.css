@@ -1,0 +1,33 @@
+a{
+    color: black;
+}
+ a:hover{
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+}
+.nav {
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+}
+.nav-link.active{
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+}
+#pitch-box{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#pitch{
+    font-family: 'Permanent Marker', serif;
+    font-size: 40px;
+    display: inline-block;
+    max-width: 800px;
+    margin-left: 200px;
+}
+@media screen and (max-width: 1000px){
+    #pitch{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
