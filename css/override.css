@@ -31,3 +31,13 @@ a{
         margin-right: 0px;
     }
 }
+#snake-thumbnail{
+    background: url('/images/snake.png');
+    height: 100px;
+    width: 100%;
+}
+#compiler-thumbnail{
+    background: url('/images/compiler.png');
+    height: 100px;
+    width: 100%;
+}
